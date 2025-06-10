@@ -31,6 +31,7 @@ const LoginForm = () => {
         <label htmlFor="email">Your email</label>
         <input
           type="email"
+          placeholder="Enter your email"
           id="email"
           className="w-full mt-1 py-2 p-2 rounded"
           {...register("email", { required: "Email addresss is required" })}
@@ -44,6 +45,7 @@ const LoginForm = () => {
         <input
           type="password"
           id="password"
+          placeholder="Enter Password"
           className="w-full mt-1 py-2 p-2 rounded"
           {...register("password", {
             required: "Password is required.",
